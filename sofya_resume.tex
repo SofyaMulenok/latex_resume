@@ -1,76 +1,67 @@
 % LaTeX resume using res.cls
-\documentclass[10pt,line,letterpaper]{res}
+\documentclass[line]{res}
 \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-\setlength{\topmargin}{-0.3in}  % Start text higher on the page 
-\setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
+\setlength{\topmargin}{-0.4in}  % Start text higher on the page 
+\setlength{\textheight}{11in}  % increase textheight to fit more on a page
 \setlength{\headsep}{0.2in}     % space between header and text
-\setlength{\headheight}{12pt}   % make room for header
+\setlength{\headheight}{10pt}   % make room for header
 \usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
 
 \begin{document}
-
 \name{\LARGE{Sofya Mulenok}}
 % \address used twice to have two lines of address
-\address{968 Washington St Apt 4, San Francisco, CA}
 \address{mulenoksv@gmail.com or (415)-359-3454}
 
 \begin{resume}
 \pagestyle{empty}
 \section{Experience}
-    {\bf Data Analyst} \hfill December 2016 - present\\
+    \textbf{Data Analyst/Specialist} \hfill December 2016 - present\\
     Traackr Inc, San Francisco, CA
     \begin{itemize} \itemsep -2pt
-    \item Expanded coverage of Traackr to gaming vertical. 
-    \item Researched and helped implement Traackr integrations with Twitch, StackOverflow, Reddit, GitHub.
-    \item Supported teams (Customer Success, Marketing, Professional Services, Sales, Engineering, etc.) with data-driven insights
-    \item Performed a variety of analytical R&D and maintenance work, such as Investigating and testing APIs and other data sources for integration, creating solutions for data issues, informing the design of data products, reports, custom data requests.
+    \item Expanded coverage of Traackr to gaming vertical.
+    \item Created tests and quality guidelines for language support; helped launch support for Japanese, Korean, Russian, Greek, Indonesian languages.
+    \item Researched and helped implement Traackr integrations with Twitch, StackOverflow, Reddit.
+    \item Supporting teams (Customer Success, Marketing, Professional Services, Sales, Engineering, etc.) with data-driven insights
+    \item Performing a variety of RnD and maintenance work, such as investigating and testing APIs for integration, creating solutions for data issues, informing the design of data products and reports (using Python, SQL, MongoDB queries).
     \end{itemize}
 
-    {\bf Search Data Engineer} \hfill December 2015 - December 2016 \\
+    \textbf{Search Data Specialist} \hfill December 2015 - December 2016 \\
     IAC Applications, Oakland, CA
     \begin{itemize} \itemsep -2pt
-    \item Supervising data evaluation tasks for a team of language specialists.
-    \item Cooperating with product team to define success metrics, goals, and timelines for data evaluation projects.
-    \item Creating guidelines for, assigning, and performing data evaluation tasks aimed at improving quality and performance of various search products, e.g. related search, smart answers, etc.
-    \item Deriving useful product and performance insights from logs and content databases (using Tableau reports, querying with SQL Workbench and Microsoft SQL Server).
-    \item Automating data collection and evaluation tasks with Python scripts.
-    \item Assisting with front-end engineering tasks (updating and debugging XML, HTML, JSON files and API responses).
-    \item Managing a Git repository for search data tools, automation scripts and linguistic files.
+    \item Supervised data evaluation tasks for a team of language specialists.
+    \item Created guidelines for, assigning, and performing data evaluation tasks aimed at improving quality and performance of various search products, e.g. "related search", "smart answers", etc.
+    \item Supported product team with insights from logs and content databases (querying with SQL Workbench and Microsoft SQL Server).
+    \item Automated data collection and evaluation tasks with Python scripts.
     \end{itemize}
     
-    {\bf Knowledge Engineer, International Business} \hfill January 2013 - December 2015 \\
+    \textbf{Knowledge Engineer, International Business} \hfill January 2013 - December 2015 \\
     IAC Search and Media (Ask.com), Oakland, CA
     \begin{itemize} \itemsep -2pt
     \item In cooperation with product and engineering teams, launched the Smart Answer product of Ask.com (similar to Google's knowledge graph) on the international websites.
     \item Launched and maintained partner and editorial content on the US and international Ask.com websites (from making data-driven decisions to content development and managing content database, QA, release).
     \item Automated data scraping and database population tasks with Python scripts.
-    \item Managed a Git repository for automation scripts.
     \end{itemize}
 
-    {\bf Localization Specialist, Russian language} \hfill July 2012 - January 2013 \\
+    \textbf{Localization Specialist, Russian language} \hfill July 2012 - January 2013 \\
     Ask.com, Oakland, CA
     \begin{itemize} \itemsep -2pt
-    \item Localized UI into Russian.
-    \item Translated and tested the Russian version of the website (including surveys and tools).
+    \item Localized UI into Russian, translated and tested the Russian version of the website.
     \item Evaluated quality of search products on Ask.com; evaluated SEM keyword buys and ad copy for compliance and linguistic accuracy.
-
     \end{itemize}
 
-\section {Language skills}
-    {\bf Russian:} native/bilingual \\
-	{\bf Japanese:} limited working proficiency \\
-    {\bf Italian:} limited working proficiency \\
-    {\bf Spanish:} limited working proficiency \\
+\section {Additional Language Skills}
+    \textbf{Russian:} native/bilingual
+    \textbf{Japanese:} limited working proficiency
 
 \section{Strongest Tools / Skills}
-    {\bf Programming languages:} Python \\
-    {\bf Administration:} Git, familiar with bash \\
-    {\bf Databases:}  SQL, MS SQL Server, SQLite, MongoDB\\
-    {\bf Web development:} HTML, JSON, basic JavaScript \\
+    \textbf{Programming languages:} Python \\
+    \textbf{Administration:} Git, familiar with bash \\
+    \textbf{Databases:}  SQL, MS SQL Server, SQLite, MongoDB\\
+    \textbf{Web development:} HTML, JSON, basic JavaScript \\
 
 \section{Education}
-    {\bf Hackbright Academy} \hfill December 2015 \\ Front-end web development, 10-week course \\
-    {\bf M.A. in Linguistics and Translation} \hfill June 2008 \\Tomsk Polytechnic University, Tomsk, Russia, GPA: 3.8, \textit{with honors}
+    \textbf{5-year degree (equivalent to MA). in Linguistics and Translation} \hfill June 2008 \\
+    Tomsk Polytechnic University, Tomsk, Russia, \textit{with honors}
 
 \end{resume}
 \end{document}
